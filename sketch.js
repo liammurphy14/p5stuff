@@ -8,7 +8,7 @@ function setup() {
   gravX.position(10, 10);
   gravX.style('width', '150px');
 
-  gravY = createSlider(-1, 1, 0.2, 0.05);
+  gravY = createSlider(-1, 1, 0.1, 0.05);
   gravY.position(10, 30);
   gravY.style('width', '150px');
 

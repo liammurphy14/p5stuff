@@ -4,7 +4,7 @@ class Ball {
   constructor(posX, posY, size, bounce) {
     this.pos = createVector(posX, posY)
     this.v = createVector(6,0)
-    this.a = createVector(0,0.2)
+    this.a = createVector(0,0.1)
     this.size = size
     this.bounce = bounce
     this.r = 0
