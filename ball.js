@@ -8,7 +8,7 @@ class Ball {
     this.size = size
     this.bounce = bounce
     this.r = 0
-    this.rV = 0
+    this.rV = 0.1
     this.rA = 0
   }
 
