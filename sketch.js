@@ -12,7 +12,7 @@ function setup() {
   gravY.position(10, 30);
   gravY.style('width', '150px');
 
-  ball = new Ball(100,400,60, 0.49)
+  ball = new Ball(400,200,30, 0.49)
 
   a = createVector(gravX.value(), gravY.value())
 
